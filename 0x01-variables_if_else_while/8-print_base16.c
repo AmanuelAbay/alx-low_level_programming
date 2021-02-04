@@ -12,7 +12,7 @@ while (a < 10)
 {
 putchar(a + '0');
 a++;
- }
+}
 a = 'a';
 while (a <= 'f')
 {

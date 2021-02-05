@@ -5,26 +5,23 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-int i = '0';
-int j = '1';
-while ( i <= '8' )
-{
-while ( j <= '9' )
-{
-putchar(i);
-putchar(j);
-if( i != '8 ')
-{
+int main (void){
+int c;
+int d=0;
+while(d < 10)
+{c = 0;
+while(c < 10){
+if (d != c && d < c){
+putchar('0' + d);
+putchar('0' + c);
+if(c + d != 17){
 putchar(',');
-putchar(' ');
+putchar(' ');}
 }
-j++;
- }
-i++;
-j = i+1;
+c++;
+}
+d++;
 }
 putchar('\n');
-return (0);
+return(0);
 }

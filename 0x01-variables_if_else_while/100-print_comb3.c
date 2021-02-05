@@ -27,5 +27,6 @@ i++;
 k++;
 j=k;
 }
+putchar('\n');
 return (0);
 }

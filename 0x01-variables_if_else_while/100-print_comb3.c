@@ -21,10 +21,10 @@ if(i!='8')
 putchar(',');
 putchar(' ');
 }
-j++;
+j+=1;
  }
-i++;
-k++;
+i+=1;
+k+=1;
 j=k;
 }
 putchar('\n');

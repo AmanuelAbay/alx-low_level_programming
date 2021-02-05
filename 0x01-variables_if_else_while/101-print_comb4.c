@@ -10,9 +10,9 @@ int main(void)
 int num1 = '0';
 int num2 = '1';
 int num3 = '2';
-while (num1 <= '7')
+while (num1 <= '9')
 {
-while (num2 <= '8')
+while (num2 <= '9')
 {
 while (num3 <= '9')
 {

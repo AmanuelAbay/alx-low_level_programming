@@ -9,7 +9,6 @@ int main(void)
 {
 int i = '0';
 int j = '1';
-int k = '1';
 while (i <= '8')
 {
 while (j <= '9')
@@ -21,11 +20,10 @@ if(i!='8')
 putchar(',');
 putchar(' ');
 }
-j+=1;
+j++;
  }
-i+=1;
-k+=1;
-j=k;
+i++;
+j = i+1;
 }
 putchar('\n');
 return (0);
